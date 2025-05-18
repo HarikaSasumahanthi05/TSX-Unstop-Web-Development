@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is my first paragraph on a webpage.</p>
+    <button id="myButton">Click Me</button>
+
+    <!-- JavaScript at the bottom -->
+    <script>
+        console.log("Page loaded successfully!");
+
+        // Make sure the button is selected correctly
+        const button = document.getElementById("myButton");
+
+        if (button) {
+            button.addEventListener("click", function () {
+                console.log("Button was clicked!");
+            });
+        } else {
+            console.log("Button not found!");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
